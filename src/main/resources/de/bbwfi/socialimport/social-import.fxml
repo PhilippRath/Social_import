@@ -6,7 +6,6 @@
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
@@ -34,8 +33,6 @@
                        </TableView>
                        <HBox prefWidth="558.0" spacing="5.0">
                            <Button mnemonicParsing="false" text="import" />
-                        <Button mnemonicParsing="false" text="import-Datei auswählen" />
-                           <TextField maxWidth="1.7976931348623157E308" prefHeight="25.0" prefWidth="335.0" />
                         <padding>
                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                         </padding>

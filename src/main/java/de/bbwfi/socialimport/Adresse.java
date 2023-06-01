@@ -1,8 +1,8 @@
 package de.bbwfi.socialimport;
 
-public class Adressen {
+public class Adresse {
+    private String bezeichnung;
     private String strasse;
-    private String hausnummer;
     private String plz;
     private String ort;
 }

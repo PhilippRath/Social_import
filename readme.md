@@ -12,17 +12,18 @@ Programm um  Daten aus dem Open Data Portal der Stadt Chemnitz zu importieren un
 
 ## To-Do
 - [x] JSON Url herrausfinden
-- [x] HTTPClient erstellen
-- [x] HTTPClient mit URL verbinden
-- [x] HTTPClient get request
-- [x] JSON Daten parsen mit GSON
-- [x] Füllen des lokalen Datenmodells, Arraylist adressen
-- [x] Erzeugen der Table View
-- [x] Erzeugen der Table View Columns
-- [x] Erzeugen der Cell Value Factories
-- [x] Erstellen der Observable List
-- [x] Füllen der Observable List mit Daten aus dem Datenmodell
-- [x] Anzeigen der Daten in der Table View
+  - https://services6.arcgis.com/jiszdsDupTUO3fSM/arcgis/rest/services/Schulen_OpenData/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson
+- [] HTTPClient erstellen
+- [] HTTPClient mit URL verbinden
+- [] HTTPClient get request
+- [] JSON Daten parsen mit GSON
+- [] Füllen des lokalen Datenmodells, Arraylist adressen
+- [] Erzeugen der Table View
+- [] Erzeugen der Table View Columns
+- [] Erzeugen der Cell Value Factories
+- [] Erstellen der Observable List
+- [] Füllen der Observable List mit Daten aus dem Datenmodell
+- [] Anzeigen der Daten in der Table View
 
 
 ## Quellen

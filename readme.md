@@ -28,3 +28,4 @@ Programm um  Daten aus dem Open Data Portal der Stadt Chemnitz zu importieren un
 
 ## Quellen
 - https://github.com/google/gson - GSON Library von Google zur Verarbeitung von JSON Daten
+- https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/HttpClient.html - HTTPClient von Oracle

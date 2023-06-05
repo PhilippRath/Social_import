@@ -10,37 +10,40 @@
 <?import javafx.scene.layout.VBox?>
 
 
- <VBox alignment="CENTER" prefHeight="376.0" prefWidth="558.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.bbwfi.socialimport.SocialimportController">
-   <TabPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" VBox.vgrow="ALWAYS">
-     <tabs>
-       <Tab text="Promo Daten">
-         <content>
-               <VBox />
-         </content>
-       </Tab>
-       <Tab text="Open Data">
-         <content>
-               <VBox>
-                  <children>
-                       <TableView maxHeight="1.7976931348623157E308" prefHeight="311.0" prefWidth="558.0">
-                           <columns>
-                               <TableColumn prefWidth="74.0" text="id" />
-                               <TableColumn prefWidth="102.0" text="Bezeischnung" />
-                               <TableColumn prefWidth="88.0" text="Art" />
-                           <TableColumn prefWidth="75.0" text="Plz" />
-                           <TableColumn prefWidth="155.0" text="Adresse" />
-                           </columns>
-                       </TableView>
-                       <HBox prefWidth="558.0" spacing="5.0">
-                           <Button mnemonicParsing="false" text="import" onAction="#importHandler" />
-                        <padding>
-                           <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-                        </padding>
-                       </HBox>
-                  </children>
-               </VBox>
-         </content>
-       </Tab>
-     </tabs>
-   </TabPane>
- </VBox>
+<VBox alignment="CENTER" prefHeight="376.0" prefWidth="558.0" xmlns="http://javafx.com/javafx/19"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.bbwfi.socialimport.SocialimportController">
+    <TabPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="200.0"
+             tabClosingPolicy="UNAVAILABLE" VBox.vgrow="ALWAYS">
+        <tabs>
+            <Tab text="Promo Daten">
+                <content>
+                    <VBox/>
+                </content>
+            </Tab>
+            <Tab text="Open Data">
+                <content>
+                    <VBox>
+                        <children>
+                            <TableView maxHeight="1.7976931348623157E308" prefHeight="311.0" prefWidth="558.0"
+                                       fx:id="schoolTableView">
+                                <columns>
+                                    <TableColumn prefWidth="74.0" text="id" fx:id="idTableColumn"/>
+                                    <TableColumn prefWidth="102.0" text="Bezeichnung" fx:id="bezeichnungTableColumn"/>
+                                    <TableColumn prefWidth="88.0" text="Art" fx:id="artTableColumn"/>
+                                    <TableColumn prefWidth="75.0" text="Plz" fx:id="plzTableColumn"/>
+                                    <TableColumn prefWidth="155.0" text="Straße" fx:id="strasseTableColumn"/>
+                                </columns>
+                            </TableView>
+                            <HBox prefWidth="558.0" spacing="5.0">
+                                <Button mnemonicParsing="false" text="import" onAction="#importHandler"/>
+                                <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                                </padding>
+                            </HBox>
+                        </children>
+                    </VBox>
+                </content>
+            </Tab>
+        </tabs>
+    </TabPane>
+</VBox>

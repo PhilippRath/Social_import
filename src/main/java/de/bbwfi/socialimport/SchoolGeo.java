@@ -10,12 +10,12 @@ public class SchoolGeo {
 
     public class Features {
         @SerializedName("properties")
-        public Schule school;
-        public Schule getSchool() {
+        public School school;
+        public School getSchool() {
             return school;
         }
 
-        public void setSchool(Schule school) {
+        public void setSchool(School school) {
             this.school = school;
         }
     }

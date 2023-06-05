@@ -1,6 +1,8 @@
 package de.bbwfi.socialimport;
 import com.google.gson.annotations.SerializedName;
-public class Schule {
+public class School {
+    @SerializedName("ID")
+    public int id;
     @SerializedName("BEZEICHNUNG")
     public String bezeichnung;
     @SerializedName("ART")
@@ -34,6 +36,14 @@ public class Schule {
 
     public void setStrasse(String strasse) {
         this.strasse = strasse;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getPlz() {

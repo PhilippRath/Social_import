@@ -1,4 +1,4 @@
-package de.bbwfi.socialimport;
+package de.bbwfi.socialimport.model;
 import com.google.gson.annotations.SerializedName;
 public class School {
     @SerializedName("ID")

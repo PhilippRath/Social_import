@@ -1,5 +1,7 @@
-package de.bbwfi.socialimport;
+package de.bbwfi.socialimport.controller;
 
+import de.bbwfi.socialimport.model.School;
+import de.bbwfi.socialimport.model.SchoolGeo;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;

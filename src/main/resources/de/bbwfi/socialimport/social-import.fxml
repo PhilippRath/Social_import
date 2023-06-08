@@ -11,7 +11,7 @@
 
 
 <VBox alignment="CENTER" prefHeight="376.0" prefWidth="558.0" xmlns="http://javafx.com/javafx/19"
-      xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.bbwfi.socialimport.SocialimportController">
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.bbwfi.socialimport.controller.SocialimportController">
     <TabPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="200.0"
              tabClosingPolicy="UNAVAILABLE" VBox.vgrow="ALWAYS">
         <tabs>

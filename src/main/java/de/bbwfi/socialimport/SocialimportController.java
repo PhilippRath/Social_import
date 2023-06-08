@@ -57,6 +57,8 @@ public class SocialimportController {
         System.out.println("importHandler");
         SchoolGeo schoolgeo = parseJSON(fetchJSON(schoolsJSONUrl));
         ArrayList<School> schools = extractSchulen(schoolgeo);
+        importSchools(schools);
+
         schoolObservableList = FXCollections.observableArrayList(schools);
         schoolTableView.setItems(schoolObservableList);
     }
@@ -94,6 +96,19 @@ public class SocialimportController {
             schulen.add(feature.getSchool());
         }
         return schulen;
+    }
+
+    public void importSchools (ArrayList<School> schools) {
+        System.out.println("importSchools");
+        DB db = new DB();
+        db.connect();
+        db.createSchoolTable();
+
+        for(School school : schools){
+            System.out.println(school.getBezeichnung());
+            db.insertSchool(school);
+        }
+        db.close();
     }
 
 }

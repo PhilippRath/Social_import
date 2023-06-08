@@ -10,7 +10,14 @@ Programm um  Daten aus dem Open Data Portal der Stadt Chemnitz zu importieren un
 - Übertragen in lokale Datenstruktur
 - Anzeigen in Table View
 
-## To-Do
+## To-Do DB
+- [x] DB erstellen
+- [x] DB Connection erstellen
+- [x] DB Daten importieren
+- [x] DB Daten auslesen
+- [x] DB Daten in Table View anzeigen
+
+## To-Do View
 - [x] JSON Url herrausfinden
   - https://services6.arcgis.com/jiszdsDupTUO3fSM/arcgis/rest/services/Schulen_OpenData/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson
 - [] HTTPClient erstellen
